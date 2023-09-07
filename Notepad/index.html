@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notepad</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: black;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+      h1 {
+        color: white;
+        font-size: 50px;
+      }
+      textarea {
+        background-color: transparent;
+        border-color: cyan;
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        resize: none;
+        outline: none;
+      }
+      .btn-cont {
+        width: 750px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+      }
+      button {
+        padding: 20px 140px;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: aqua;
+        cursor: pointer;
+        border: none;
+        border-radius: 2px;
+      }
+      button:active {
+        transform: translateY(2px);
+        box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Notepad</h1>
+      <textarea id="input" cols="50" rows="12"></textarea>
+      <div class="btn-cont">
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
