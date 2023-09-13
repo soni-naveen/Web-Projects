@@ -4,6 +4,7 @@ const clearBtn = document.querySelector("#clear");
 
 document.querySelector("#save").addEventListener("click", function () {
   save();
+  alert("Text Saved Successfully!");
 });
 document.querySelector("#clear").addEventListener("click", function () {
   clear();
