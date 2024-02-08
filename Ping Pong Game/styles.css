@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #a1e0a4;
+}
+.btn-secondary:hover {
+  background-color: rgb(213, 103, 103);
+}
+
+.control {
+  text-align: center;
+}
+
+canvas {
+  background: #000;
+  border: 1px solid black;
+}
